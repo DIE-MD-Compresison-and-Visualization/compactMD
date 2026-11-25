@@ -1,0 +1,18 @@
+# Environment for stages 2-3 (training, compression, decompression).
+# A GPU with bfloat16 support (e.g. NVIDIA A100) is required for bf16-mixed training.
+# TODO: pin the exact versions used for the paper.
+name: compactmd-train
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch
+  - pytorch-gpu
+  - pytorch-lightning
+  - mdanalysis
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - natsort
+  - tqdm
+  - pip

@@ -1,0 +1,26 @@
+# Trajectories, structures and model artefacts
+*.trr
+*.xtc
+*.dcd
+*.nc
+*.gro
+*.pt
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.h5
+
+# Run outputs
+outputs/
+lightning_logs/
+*.out
+*.err
+*_metrics.csv
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.venv/

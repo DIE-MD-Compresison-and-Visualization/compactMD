@@ -1,0 +1,13 @@
+# Environment for stage 1 (frame selection, compactmd/frame_selection.py).
+# PyEMMA is no longer maintained and is easiest to install on Python <= 3.10.
+# TODO: pin the exact versions used for the paper.
+name: compactmd-selection
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pyemma
+  - mdtraj
+  - numpy<2
+  - scikit-learn
+  - matplotlib

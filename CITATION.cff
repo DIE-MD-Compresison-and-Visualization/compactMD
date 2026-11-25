@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CompactMD"
+version: 0.1.0
+license: GPL-3.0-or-later
+repository-code: "https://github.com/DIE-MD-Compresison-and-Visualization/compactMD"
+authors:
+  - family-names: Luna
+    given-names: Adiel
+  - family-names: Karanth
+    given-names: Srishti
+  - family-names: Cao
+    given-names: Thanh Duy
+  - family-names: Lafond
+    given-names: Sebastien
+  - family-names: Rexha
+    given-names: Hergys
+  - family-names: Baaden
+    given-names: Marc
+references:
+  - type: article
+    title: "compressTraj"
+    authors:
+      - family-names: Wasim
+        given-names: Abdul
+      - family-names: Schäfer
+        given-names: Lars V.
+      - family-names: Mondal
+        given-names: Jagannath
+    doi: 10.1101/2024.09.15.613125

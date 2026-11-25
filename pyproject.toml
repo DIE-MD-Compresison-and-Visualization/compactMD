@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compactmd"
+version = "0.1.0"
+description = "Representative-frame selection and bfloat16 training for autoencoder-based MD trajectory compression"
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+requires-python = ">=3.9"
+# Dependencies are managed via the conda environment files (see README),
+# because PyEMMA and a CUDA build of PyTorch are best installed with conda.
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["compactmd*"]
